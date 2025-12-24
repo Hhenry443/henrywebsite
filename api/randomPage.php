@@ -1,7 +1,6 @@
 <?php
 $pages = [
   '/about.php',
-  '/henry.php',
   '/ihatehenry.php',
   '/index.php',
   '/marmoset.php',
