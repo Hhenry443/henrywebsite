@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url("../images/tongue.webp");
+  background-repeat: repeat;
+  background-size: 600px 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  width: 25%;
+  text-align: center;
+}
+
+.main-text h1 {
+  font-size: 50px;
+  color: cornflowerblue;
+  font-weight: bolder;
+}
+
+.text-content {
+  text-align: center;
+}
+
+.text-content h1,
+.text-content p {
+  margin: 0 auto;
+}
+
+.text-content p {
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.back-arrow {
+  font-size: 30px;
+  color: whitesmoke;
+}

@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/tongue.webp");
+  background-repeat: repeat;
+  background-size: 600px 400px;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text h1 {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.main-text a {
+  color: cornflowerblue;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.links p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.links {
+  display: flex;
+}
+
+.bottom-text {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  color: white;
+}
+
+.yes-no {
+  display: flex;
+}
+
+.choice {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.slash {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+.choice:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.no {
+  color: #ff3b3b;
+}
+
+.yes {
+  color: #3bff3b;
+}
