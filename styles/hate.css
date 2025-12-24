@@ -92,11 +92,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
-    background-size: cover;
-  }
-
   .hate-form {
+    background: none;
+
     position: relative;
     top: auto;
     left: auto;
