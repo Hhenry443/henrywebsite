@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #bdbdbd;
+  font-family: system-ui, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  text-align: left;
+  width: 320px;
+}
+
+.status {
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.08em;
+  animation: drift 14s infinite linear;
+}
+
+.meta {
+  font-size: 0.7rem;
+  opacity: 0.5;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #7a7a7a;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
