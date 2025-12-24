@@ -46,3 +46,32 @@ main img {
   transform: translate(-50%, -50%);
   z-index: 9999;
 }
+
+@media (max-width: 768px) {
+  body {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  main {
+    padding: 2rem 1.25rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  main img {
+    height: auto;
+    max-height: 180px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  main p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  main .small-text {
+    font-size: 0.9rem;
+  }
+}

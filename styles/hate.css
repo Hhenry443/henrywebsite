@@ -90,3 +90,57 @@ body {
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  .hate-form {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .hate-field {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .hate-field legend {
+    font-size: 1.1em;
+    letter-spacing: 0.25em;
+    margin-bottom: 1rem;
+  }
+
+  #answer {
+    height: 120px;
+  }
+
+  #name-input,
+  #email-input {
+    width: 100%;
+    float: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .final-button {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align: right;
+  }
+}
