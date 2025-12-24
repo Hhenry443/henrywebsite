@@ -4,7 +4,6 @@ $pages = [
   '/ihatehenry.php',
   '/index.php',
   '/marmoset.php',
-  '/nocontext.php'
 ];
 
 $randomPage = $pages[array_rand($pages)];
